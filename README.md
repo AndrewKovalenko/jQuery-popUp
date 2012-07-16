@@ -59,4 +59,4 @@ To hide pop-up message just call hide method:
     </sсript>
 ## Parameters
 
-*width
+*width*
