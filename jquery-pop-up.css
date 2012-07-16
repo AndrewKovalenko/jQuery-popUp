@@ -1,0 +1,47 @@
+.pop-up {
+    position: absolute;
+    display: none;
+}
+
+
+.pop-up div.triangle {
+    position: absolute;
+    right: 15px;
+    width: 16px;
+    height: 9px;
+    background-image: url(images/panel.png);
+    z-index: 3;
+}
+
+
+.pop-up div.text {
+    background-color: #FEFFF4;
+    width: inherit;
+    border-radius: 5px;
+    border: 1px #BDD1BD solid;
+}
+
+.pop-up div.text a.close {
+     position: relative;
+    top: 6px;
+    right: 6px;
+    width: 8px;
+    height: 8px;
+    background-image: url(images/close_passive.png);
+}
+
+.pop-up div.text a.close:hover {
+    background-image: url(images/close_active.png);
+}
+
+.pop-up div.text span.message-text {
+    margin: 16px;
+    text-align: center;
+    display: block;
+}
+
+.pop-up div.triangle-container {
+    position: relative;
+    top: 1px;
+    height: 9px;
+}
