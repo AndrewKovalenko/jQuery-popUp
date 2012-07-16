@@ -6,7 +6,7 @@ tooltip on web page.
 ## Requrements
 jQuery >= 1.7.2
 
-##Usage
+## Usage
 Html:
 
 `<div id="message">Demo message</div>`
@@ -56,4 +56,7 @@ To hide pop-up message just call hide method:
         $(function(){
           $('div.message').popUp('hide');
         });
-    </script>
+    </sсript>
+## Parameters
+
+$width
