@@ -63,3 +63,6 @@ To hide pop-up message just call hide method:
 
 *top* - specify coordinate of top corners of message.
 NOTE: *top* will be ignored, if you specify *bottom* parameter
+
+*left* - specify coordinate of left corners of message.
+NOTE: *left* will be ignored, if you specify *right* parameter
