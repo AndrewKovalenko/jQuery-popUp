@@ -9,7 +9,7 @@
     right: 15px;
     width: 16px;
     height: 9px;
-    background-image: url(images/panel.png);
+    background-image: url(/Content/images/panel.png);
     z-index: 3;
 }
 
@@ -27,11 +27,11 @@
     right: 6px;
     width: 8px;
     height: 8px;
-    background-image: url(images/close_passive.png);
+    background-image: url(/Content/images/close_passive.png);
 }
 
 .pop-up div.text a.close:hover {
-    background-image: url(images/close_active.png);
+    background-image: url(/Content/images/close_active.png);
 }
 
 .pop-up div.text span.message-text {
