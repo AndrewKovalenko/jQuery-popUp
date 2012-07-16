@@ -59,4 +59,6 @@ To hide pop-up message just call hide method:
     </sсript>
 ## Parameters
 
-*width*
+*width* - specify width of message
+*top* - specify coordinate of top corners of message
+NOTE: *top* will be ignored, if you specify *bottom* parameter
