@@ -1,6 +1,3 @@
-# Example
-<div>Tooltip Message</div>
-
 # How use jQuery pop-up plugin
 ## Description
 This is pretty simple jQuery pop-up plugin, which displays "Windows like style"
