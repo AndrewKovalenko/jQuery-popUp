@@ -1,4 +1,4 @@
-# How d# jQuery pop-up plugin
+# How use jQuery pop-up plugin
 ## Description
 This is pretty simple jQuery pop-up plugin, which displays "Windows like style"
 tooltip on web page.
