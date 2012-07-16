@@ -57,11 +57,3 @@ To hide pop-up message just call hide method:
           $('div.message').popUp('hide');
         });
     </script>
-
-
-
-
-
- work?
-
-Enter Text in Markdown format.
