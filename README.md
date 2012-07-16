@@ -1,18 +1,3 @@
-#Example
-<link type="text/css" rel="stylesheet" href="jquery-pop-up.css"/>
-<script type="text/javascript" src="jquery-1.7.2.min.js"></script> 
-<script type="text/javascript" src="jquery-popup.js"></script>
-<div id="message">Demo message</div>
-<script type="text/javascript">
-        $(function(){
-          $('div.message').popUp({
-                                   width: 200,
-                                   top: 10,
-                                   left: 50
-                                 });
-        });
-</script>
-
 # How use jQuery pop-up plugin
 ## Description
 This is pretty simple jQuery pop-up plugin, which displays "Windows like style"
