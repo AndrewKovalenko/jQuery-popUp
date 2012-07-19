@@ -6,7 +6,17 @@
         element.css('display', 'block');
         element.css('width', options.width);
         element.css('heigth', options.height);
-        if (options.left != undefined) {
+        
+        var triangle = element.find('div.triangle');
+        
+        if(options.displacement != 'right') {
+            
+            triangle.css('left', 15); 
+        } else {
+            triangle.css('right', 15); 
+        }
+
+        if (options.right != undefined) {
             element.css('right', options.right);
         } else {
             element.css('left', options.left);
@@ -66,7 +76,8 @@
             'top': 0,
             'left': 0,
             'width': 200,
-            'height': 50
+            'height': 50,
+            'dispalcement' : 'left'
         }, options);
 
         if (methods[method]) {

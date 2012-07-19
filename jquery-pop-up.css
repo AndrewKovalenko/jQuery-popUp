@@ -6,7 +6,6 @@
 
 .pop-up div.triangle {
     position: absolute;
-    right: 15px;
     width: 16px;
     height: 9px;
     background-image: url(/Content/images/panel.png);
