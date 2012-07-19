@@ -72,3 +72,4 @@ NOTE: *left* will be ignored, if you specify *right* parameter
 *bottom* - specify coordinate of bottom corners of message
 
 *right* - specify coordinate of right corners of message
+*displacement* - specify displacement of message relative to pop-up triangle. Value can be 'right' or 'left'
